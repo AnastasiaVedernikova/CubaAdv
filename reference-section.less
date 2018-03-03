@@ -1,19 +1,19 @@
-
-.reference-section__image{
+.reference-section{
+  &__image{
     width: 800px;
     height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top:50px;
-}
-.reference-section__instruction{
+  }
+  &__instruction{
     text-align: center;
     vertical-align: center;
     color:#ecb84c;
     font-size: 14px;
-}
-.reference-section__hover-text {
+  }
+  &__hover-text {
     position: absolute;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
@@ -23,13 +23,13 @@
     margin-top: -278px;
     border-bottom: 2px solid #ecb84c;
     visibility: hidden;
-}
-.reference-section__hover-pointer {
+  }
+  &__hover-pointer {
     position: absolute;
     padding-left: 750px;
     margin-top: -240px;
-}
-.reference-section__hover-pointer:hover + .reference-section__hover-text{
+  }
+  &__hover-pointer:hover + .reference-section__hover-text{
     visibility: visible;
-
+  }
 }

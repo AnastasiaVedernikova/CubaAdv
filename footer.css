@@ -3,14 +3,16 @@
     height:230px;
     background-color:#f8f8f8;
 }
-.footer-list_el{
-    width:100px;
-}
 .footer-list {
     list-style-type: none;
     overflow: hidden;
     padding-top:20px;
 }
+
+.footer-list_el{
+    width:100px;
+}
+
 .footer-list__list{
     float:left;
     padding-left:50px;
@@ -49,17 +51,17 @@
 .footer-list__el__language-picker:hover {
     height: 81px;
 }
-.footer-list__el__language-picker a{
+.footer-list__el__language-picker__link{
     text-decoration: none;
     font-size:10px;
     padding-top: 1px;
     color:#505050;
 }
-.footer-list__el__language-picker li {
+.footer-list__el__language-picker__el {
     display: block;
     line-height: 30px;
 }
-.footer-list__el__language-picker li img {
+.footer-list__el__language-picker__img {
     margin-right: 5px;
 }
 .footer__language-picker__arrow{

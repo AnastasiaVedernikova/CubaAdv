@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <title>Cuba</title>
     <link rel="stylesheet" href="body.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="navigation.css">
-    <link rel="stylesheet" href="article.css">
-    <link rel="stylesheet" href="statistics.css">
-    <link rel="stylesheet" href="two-column-section.css">
-    <link rel="stylesheet" href="reference-section.css">
-    <link rel="stylesheet" href="gallery.css">
-    <link rel="stylesheet" href="footer.css">
+    <!--<link rel="stylesheet" href="header.css">-->
+    <!--<link rel="stylesheet" href="navigation.css">-->
+    <!--<link rel="stylesheet" href="article.css">-->
+    <!--<link rel="stylesheet" href="statistics.css">-->
+    <!--<link rel="stylesheet" href="two-column-section.css">-->
+    <!--<link rel="stylesheet" href="reference-section.css">-->
+    <!--<link rel="stylesheet" href="gallery.css">-->
+    <!--<link rel="stylesheet" href="footer.css">-->
+    <link rel="stylesheet/less" type="text/css" href="header.less"/>
+    <link rel="stylesheet/less" type="text/css" href="navigation.less"/>
+    <link rel="stylesheet/less" type="text/css" href="article.less"/>
+    <link rel="stylesheet/less" type="text/css" href="statistics.less"/>
+    <link rel="stylesheet/less" type="text/css" href="two-column-section.less"/>
+    <link rel="stylesheet/less" type="text/css" href="reference-section.less"/>
+    <link rel="stylesheet/less" type="text/css" href="gallery.less"/>
+    <link rel="stylesheet/less" type="text/css" href="footer.less"/>
+
 
 </head>
 <body>
@@ -19,7 +28,10 @@
         <div class="header__title">
             <h1 class="header__title__text">Cuba</h1>
         </div>
-        <span class="header__border__text">Explore the world of Casas & Cadillacs</span>
+        <span class="header__border__text">
+            <!--<img src="pictures/header_image_bottom.jpg" class="header__img-bottom">-->
+            Explore the world of Casas & Cadillacs
+        </span>
     </header>
     <main class="content">
         <nav class="navigation">
@@ -129,6 +141,13 @@
                 Hover for more info
             </h3>
             <img class="reference-section__image" src="pictures/reference-section__img.jpg">
+            <section class="reference-section__hover-pointer">
+                <svg height="100" width="100">
+                    <circle cx="15" cy="15" r="10" stroke="#ecb84c" stroke-width="10" fill="#ffd600" />
+                </svg>
+                <!--<img src="http://res.cloudinary.com/do9osx65u/image/upload/q_100/v1516194437/Untitled-1_jwji6o.png">-->
+            </section>
+            <span class="reference-section__hover-text">Convertible Roof</span>
             <p class="article__text">
                 The American trade embargo with Cuba in 1960 had the effect of instantly separating thousands
                 of 1940s and 1950s Detroit-built cars from their spare parts supply. Convertibles were always
@@ -163,12 +182,19 @@
                 </li>
                 <li class="footer-list__el">
                     <ul class="footer-list__el__language-picker">
-                        <a href="#nl"><li><img src="http://i64.tinypic.com/fd60km.png"/>US Dollar
-                            <svg height="5" width="10" class="footer__language-picker__arrow">
-                                <polyline points="0,0 5,5 10,0" stroke=black stroke-width="1" fill="none"/>
-                            </svg>
-                        </li></a>
-                        <a href="#en"><li><img src="http://i65.tinypic.com/2d0kyno.png"/>Nederlands</li></a>
+                        <a href="#nl" class="footer-list__el__language-picker__link">
+                            <li class="footer-list__el__language-picker__el">
+                                <img src="http://i64.tinypic.com/fd60km.png" class="footer-list__el__language-picker__img"/>US Dollar
+                                <svg height="5" width="10" class="footer__language-picker__arrow">
+                                    <polyline points="0,0 5,5 10,0" stroke=black stroke-width="1" fill="none"/>
+                                </svg>
+                            </li>
+                        </a>
+                        <a href="#en" class="footer-list__el__language-picker__link">
+                            <li class="footer-list__el__language-picker__el">
+                                <img src="http://i65.tinypic.com/2d0kyno.png" class="footer-list__el__language-picker__img"/>Nederlands
+                            </li>
+                        </a>
                     </ul>
                 </li>
             </ul>
@@ -206,5 +232,6 @@
         </ul>
         <div class="footer__comment">© 2016 All rights reserved.</div>
     </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
 </body>
 </html>
