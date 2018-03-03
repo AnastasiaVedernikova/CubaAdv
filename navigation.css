@@ -1,0 +1,31 @@
+.navigation__menu {
+    margin-top:0;
+    list-style-type: none;
+    padding-left:200px;
+
+    padding-top: 0;
+    padding-bottom:0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #d0d4d8;
+}
+
+.navigation__menu-el {
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+.navigation__link {
+    display: block;
+    color: #909090;
+    font-size:14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation__link__active {
+    border-bottom: solid #ecb84c 5px;
+    color:#4e5665;
+}

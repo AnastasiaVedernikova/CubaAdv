@@ -1,0 +1,43 @@
+.statistics{
+    padding-top:15px;
+    text-align: center;
+}
+.statistics__el{
+    width: 125px;
+    margin: 0 10px;
+    display: inline-block;
+    text-align: center;
+}
+.statistics__el__text{
+    /*text-align: center;*/
+    font-size: 12px;
+    text-decoration: none;
+    color:#909090;
+}
+.statistics__el__count{
+    padding-bottom:2px;
+    /*text-align: center;*/
+    font-size: 16px;
+    text-decoration: none;
+    color:#4e5665;
+}
+
+.statistics__el__image{
+    height: 90px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    /*padding-bottom:15px;*/
+
+}
+/*.im1 {*/
+    /*background-image: url("pictures/statistics1_trips.png");*/
+/*}*/
+/*.im2 {*/
+    /*background-image: url("pictures/statistics2_venues.png");*/
+/*}*/
+/*.im3 {*/
+    /*background-image: url("pictures/statistics3_tickets.png");*/
+/*}*/
+/*.im4 {*/
+    /*background-image: url("pictures/statistics4_reviews.png");*/
+/*}*/

@@ -1,0 +1,17 @@
+
+.reference-section__image{
+    width: 800px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:50px;
+    /*position: relative;*/
+}
+.reference-section__instruction{
+    text-align: center;
+    vertical-align: center;
+    color:#ecb84c;
+    font-size: 14px;
+
+}

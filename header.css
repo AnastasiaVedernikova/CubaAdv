@@ -1,0 +1,36 @@
+
+.header {
+    height: 460px;
+    background: url("pictures/header_image.jpg") no-repeat;
+    background-size:100% 100%;
+    position:relative;
+}
+
+h1 {
+    margin:0;
+}
+
+.header__title{
+    position: absolute;
+    top:20px;left:20px;right:20px;bottom: 20px;
+    border: solid 2px #ecb84c;
+}
+
+.header__title__text{
+    padding-top: 160px;
+    text-align: center;
+    font-size:100px;
+    color:white;
+    font-weight: bold;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header__border__text{
+    padding: 10px;
+    color:white;
+    top:430px;
+    position: relative;
+    left:35%;
+    background-image: url("pictures/header_image_bottom.jpg");
+    background-size: 100% 100%;
+}
