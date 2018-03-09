@@ -1,4 +1,5 @@
 .reference-section{
+  position:relative;
   &__image{
     width: 800px;
     height: 300px;
@@ -9,9 +10,12 @@
   }
   &__instruction{
     text-align: center;
-    vertical-align: center;
+    line-height:21px;
     color:#ecb84c;
     font-size: 14px;
+    &>*{
+      vertical-align: middle;
+    }
   }
   &__hover-text {
     position: absolute;
@@ -26,7 +30,7 @@
   }
   &__hover-pointer {
     position: absolute;
-    padding-left: 750px;
+    margin-left: 750px;
     margin-top: -240px;
   }
   &__hover-pointer:hover + .reference-section__hover-text{

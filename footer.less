@@ -1,6 +1,6 @@
 .footer {
   border-top: 2px solid #d0d4d8;
-  height: 230px;
+  height: 250px;
   background-color: #f8f8f8;
   &-list {
     list-style-type: none;
@@ -36,6 +36,7 @@
 }
 .footer-list__el {
   padding-top: 10px;
+  line-height:20px;
 
   &__language-picker {
     background-color: #FFF;
@@ -57,12 +58,18 @@
     }
     &__img {
       margin-right: 5px;
+      margin-left: 5px;
     }
   }
   &__language-picker:hover {
-    height: 81px;
+    height: 61px;
   }
 }
 .footer__language-picker__arrow{
   padding-left:10px;
+  padding-right: 5px;
+}
+.footer-list__el>*{
+  vertical-align:middle;
+
 }
